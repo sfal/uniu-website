@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/uniu-website/static/css/main.d1b05096.chunk.css",
-    "main.js": "/uniu-website/static/js/main.21f74fc9.chunk.js",
-    "main.js.map": "/uniu-website/static/js/main.21f74fc9.chunk.js.map",
-    "runtime-main.js": "/uniu-website/static/js/runtime-main.6bd9766c.js",
-    "runtime-main.js.map": "/uniu-website/static/js/runtime-main.6bd9766c.js.map",
-    "static/js/2.bf74ecc7.chunk.js": "/uniu-website/static/js/2.bf74ecc7.chunk.js",
-    "static/js/2.bf74ecc7.chunk.js.map": "/uniu-website/static/js/2.bf74ecc7.chunk.js.map",
-    "index.html": "/uniu-website/index.html",
-    "precache-manifest.3f67326d0abe305da1cdd02e64f15f82.js": "/uniu-website/precache-manifest.3f67326d0abe305da1cdd02e64f15f82.js",
-    "service-worker.js": "/uniu-website/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/uniu-website/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.bf74ecc7.chunk.js.LICENSE": "/uniu-website/static/js/2.bf74ecc7.chunk.js.LICENSE",
-    "static/media/logo.svg": "/uniu-website/static/media/logo.5d5d9eef.svg"
+    "main.css": "uniu.it/static/css/main.d1b05096.chunk.css",
+    "main.js": "uniu.it/static/js/main.0ab5c805.chunk.js",
+    "main.js.map": "uniu.it/static/js/main.0ab5c805.chunk.js.map",
+    "runtime-main.js": "uniu.it/static/js/runtime-main.59a4e0f7.js",
+    "runtime-main.js.map": "uniu.it/static/js/runtime-main.59a4e0f7.js.map",
+    "static/js/2.bf74ecc7.chunk.js": "uniu.it/static/js/2.bf74ecc7.chunk.js",
+    "static/js/2.bf74ecc7.chunk.js.map": "uniu.it/static/js/2.bf74ecc7.chunk.js.map",
+    "index.html": "uniu.it/index.html",
+    "precache-manifest.a4ba77f5668bd0093cd90e6677aa7dab.js": "uniu.it/precache-manifest.a4ba77f5668bd0093cd90e6677aa7dab.js",
+    "service-worker.js": "uniu.it/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "uniu.it/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.bf74ecc7.chunk.js.LICENSE": "uniu.it/static/js/2.bf74ecc7.chunk.js.LICENSE",
+    "static/media/logo.svg": "uniu.it/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6bd9766c.js",
+    "static/js/runtime-main.59a4e0f7.js",
     "static/js/2.bf74ecc7.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.21f74fc9.chunk.js"
+    "static/js/main.0ab5c805.chunk.js"
   ]
 }
