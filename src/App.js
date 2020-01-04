@@ -7,8 +7,8 @@ import Landing from "./components/Landing";
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header> */}
-      <Landing></Landing>
+      <Header></Header>
+      {/* <Landing></Landing> */}
     </div>
   );
 }
