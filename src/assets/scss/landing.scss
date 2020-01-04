@@ -1,0 +1,27 @@
+@import "../colors.scss";
+@import url("https://fonts.googleapis.com/css?family=Asap&display=swap");
+
+body {
+  background-color: $backgroundColor;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.uniu-logo {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../img/app-icon-rounded.png");
+  background-size: contain;
+  margin: 0 auto;
+}
+
+p {
+  font-family: "Asap", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+}

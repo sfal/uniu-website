@@ -1,5 +1,9 @@
 @import "../colors.scss";
 
-body {
-  background-color: $backgroundColor;
+header {
+  background-color: $mainRedColor;
+
+  h1 {
+    color: blue;
+  }
 }
