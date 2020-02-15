@@ -95,12 +95,9 @@ export default class Discover extends React.Component {
                 {/* <h1>Ecco UniU</h1> */}
                 <br />
                 <p>
-                  Un'app per gestire al meglio
-                  <br /> il tuo percorso universitario
-                  <br />
-                  tenendo traccia di tutto ciò
-                  <br />
-                  che può esserti utile quotidianamente.
+                  Un'app per gestire al meglio il tuo percorso universitario
+                  tenendo traccia di tutto ciò che può esserti utile
+                  quotidianamente.
                 </p>
               </div>
               <div className="content-inner"></div>
@@ -108,12 +105,9 @@ export default class Discover extends React.Component {
             <div className="content">
               <div className="text" id="secondText">
                 <p>
-                  Puoi monitorare facilmente <br />
-                  la tua carriera universitaria. <br />
-                  Segna gli esami svolti
-                  <br />e quelli da fare,
-                  <br />
-                  tenendo traccia dei CFU e dei voti.
+                  Puoi monitorare facilmente la tua carriera universitaria.
+                  Segna gli esami svolti e quelli da fare, tenendo traccia dei
+                  CFU e dei voti.
                 </p>
               </div>
               <div className="content-inner"></div>
@@ -122,16 +116,10 @@ export default class Discover extends React.Component {
               <div className="text" id="thirdText">
                 <h1></h1>
                 <p>
-                  Puoi registrare l'orario delle lezioni
-                  <br /> e visualizzare il piano della
-                  <br />
-                  giornata o dell'intera settimana.
-                  <br />
-                  L'app ti invierà una notifica
-                  <br />
-                  quando è arrivato il momento
-                  <br />
-                  di cambiare aula.
+                  Puoi registrare l'orario delle lezioni e visualizzare il piano
+                  della giornata o dell'intera settimana.
+                  <br /> L'app ti invierà una notifica quando è arrivato il
+                  momento di cambiare aula.
                 </p>
               </div>
             </div>

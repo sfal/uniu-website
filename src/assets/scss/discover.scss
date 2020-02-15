@@ -48,11 +48,19 @@
 
     .text {
       // background-color: saddlebrown;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
       h1 {
         color: $mainTextColor;
       }
       p {
         font-style: normal;
+        // background-color: red;
+        width: 60%;
+        text-align: left;
+        padding-bottom: 20px;
+        border-bottom: 2px solid $mainRedColor;
       }
     }
   }

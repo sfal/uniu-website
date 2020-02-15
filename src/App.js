@@ -1,7 +1,9 @@
 import "./App.css";
 
+import Contact from "./components/Contact";
 // import Discover from "./components/Discover";
 import Discover from "./components/Discover";
+import Features from "./components/Features";
 import Header from "./components/Header";
 import Landing from "./components/Landing";
 import React from "react";
@@ -14,6 +16,8 @@ function App() {
       {/* <Header></Header> */}
       <Header />
       <Discover></Discover>
+      <Features />
+      <Contact />
       {/* <Landing></Landing> */}
     </div>
   );
