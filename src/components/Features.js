@@ -12,6 +12,13 @@ export default class Features extends React.Component {
       <div className="features">
         <div className="box">
           <div className="description">
+            <div className="img-container">
+              <img
+                alt="feature"
+                className="featureImg"
+                src={require("../assets/img/features1.png")}
+              />
+            </div>
             <p>
               <b>Semplice</b>.
               <br />
@@ -19,13 +26,27 @@ export default class Features extends React.Component {
             </p>
           </div>
           <div className="description">
+            <div className="img-container">
+              <img
+                alt="feature"
+                className="featureImg"
+                src={require("../assets/img/features2.png")}
+              />
+            </div>
             <p>
               <b>Utile</b>. <br />
-              Conserva tutte le informazioni importanti sui tuoi corsi e i tuoi
-              esami.
+              Conserva tutte le informazioni importanti che potrebbero tornarti
+              utili.
             </p>
           </div>
           <div className="description">
+            <div className="img-container">
+              <img
+                alt="feature"
+                className="featureImg"
+                src={require("../assets/img/features3.png")}
+              />
+            </div>
             <p>
               <b>Per te</b>. <br />
               Utilizza l’app come meglio credi e personalizzala* a tuo
@@ -35,6 +56,13 @@ export default class Features extends React.Component {
             </p>
           </div>
           <div className="description">
+            <div className="img-container">
+              <img
+                alt="feature"
+                className="featureImg"
+                src={require("../assets/img/features4.png")}
+              />
+            </div>
             <p>
               <b>Frequenti la Federico II di Napoli?</b> <br />
               Scarica i dati della tua carriera direttamente dal tuo account

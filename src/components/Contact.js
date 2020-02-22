@@ -17,11 +17,6 @@ export default class Contact extends React.Component {
           <br />
           Inviaci una email a mail@uniu.it - ti risponderemo appena possibile!
         </p>
-        <div className="footer">
-          <div className="footer-content">
-            <h1>uniu</h1>
-          </div>
-        </div>
       </div>
     );
   }

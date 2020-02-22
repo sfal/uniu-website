@@ -3,6 +3,8 @@ import "../assets/scss/header.scss";
 
 import React, { Component } from "react";
 
+import { Link } from "react-router-dom";
+
 export default class Header extends React.Component {
   state = {};
   componentDidMount() {}
@@ -14,14 +16,16 @@ export default class Header extends React.Component {
           <h1>UniU</h1>
           <ul>
             <li className="active">
-              <a href="\">Scopri</a>
+              <Link to="/">Scopri</Link>
             </li>
             <li>
-              {" "}
               <a href="\">Contatti</a>
             </li>
             <li>
-              <a href="\">Termini & Condizioni</a>
+              <Link to="/terms_conditions">Termini & Condizioni</Link>
+            </li>
+            <li>
+              <Link to="/privacy_policy">Privacy Policy</Link>
             </li>
             <a href="\" target="_blank" className="appstore-badge">
               <img

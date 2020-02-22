@@ -21,6 +21,18 @@
       text-align: left;
       width: 20%;
 
+      .img-container {
+        // background-color: blue;
+        width: 250px;
+        height: 250px;
+        border-bottom: 1px white dashed;
+      }
+      .featureImg {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+      }
+
       p {
         font-style: normal;
         color: white;
