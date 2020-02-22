@@ -1,25 +1,28 @@
 import "./App.css";
 
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+
 import Contact from "./components/Contact";
 // import Discover from "./components/Discover";
 import Discover from "./components/Discover";
 import Features from "./components/Features";
 import Header from "./components/Header";
+import { Home } from "./pages/home";
 import Landing from "./components/Landing";
+import PrivacyPolicy from "./pages/privacy_policy";
 import React from "react";
+import TermsConditions from "./pages/terms_conditions";
 import logo from "./logo.svg";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Section /> */}
-      {/* <Header></Header> */}
-      <Header />
-      <Discover></Discover>
-      <Features />
-      <Contact />
-      {/* <Landing></Landing> */}
-    </div>
+    <main>
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/privacy_policy" component={PrivacyPolicy} />
+        <Route path="/terms_conditions" component={TermsConditions} />
+      </Switch>
+    </main>
   );
 }
 
