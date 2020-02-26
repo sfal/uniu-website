@@ -4,6 +4,7 @@ import "../assets/scss/header.scss";
 import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
+import Pdf from "../assets/docs/Terms&Conditions UniU.pdf";
 
 export default class Header extends React.Component {
   state = {};
@@ -13,7 +14,9 @@ export default class Header extends React.Component {
     return (
       <header className="header">
         <div className="header-content">
-          <h1>UniU</h1>
+          <a href="/">
+            <h1>UniU</h1>
+          </a>
           <ul>
             <li className="active">
               <Link to="/">Scopri</Link>

@@ -10,12 +10,9 @@ export default class Contact extends React.Component {
   render() {
     return (
       <div className="contact">
-        <h1>Contattaci</h1>
+        <h1>Contatti</h1>
         <p>
-          Hai domande? Curiosità? Vuoi lamentarti di un fastidioso bug? Vuoi
-          darci un saluto?
-          <br />
-          Inviaci una email a mail@uniu.it - ti risponderemo appena possibile!
+          <a href="mailto:uniu.app@gmail.com">uniu.app@gmail.com</a>
         </p>
       </div>
     );

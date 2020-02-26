@@ -1,4 +1,4 @@
-@import "../colors.scss";
+@import "../scss/colors.scss";
 
 .container {
   width: 100%;
@@ -7,12 +7,18 @@
   justify-content: center;
   align-items: center;
   margin-top: 62px;
-  background-color: pink;
+  // background-color: pink;
 
   .text {
     width: 90%;
-    background-color: yellow;
+    // background-color: yellow;
     font-style: normal;
     text-transform: none;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-style: normal;
+    }
   }
 }
