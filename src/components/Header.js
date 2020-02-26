@@ -4,7 +4,6 @@ import "../assets/scss/header.scss";
 import React, { Component } from "react";
 
 import { Link } from "react-router-dom";
-import Pdf from "../assets/docs/Terms&Conditions UniU.pdf";
 
 export default class Header extends React.Component {
   state = {};

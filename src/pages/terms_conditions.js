@@ -1,7 +1,6 @@
 import "../assets/scss/header.scss";
 
 import { Link } from "react-router-dom";
-import Pdf from "../assets/docs/Terms&Conditions UniU.pdf";
 import React from "react";
 
 export const TermsConditions = () => {
