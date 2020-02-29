@@ -1,0 +1,187 @@
+@import "../scss/colors.scss";
+
+.section {
+  // background-color: red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: 1024px) {
+    height: 100%;
+  }
+}
+
+.scrollable-desktop {
+  // background-color: lime;
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  overflow: auto;
+  flex-direction: row;
+  justify-content: space-between;
+
+  @media only screen and (max-width: 1024px) {
+    display: none;
+  }
+
+  .left {
+    width: 50%;
+    height: 100%;
+    // background-color: #004bd3;
+
+    h1 {
+      letter-spacing: 3px;
+      margin: 0;
+      padding-left: 10px;
+      padding-top: 10px;
+      color: #fff;
+      font-weight: 100;
+    }
+
+    .content {
+      width: 100%;
+      height: 100%;
+    }
+
+    .content .text {
+      width: 100%;
+      height: 550px;
+      position: sticky;
+      top: 30%;
+
+      // background-color: pink;
+    }
+
+    .text {
+      // background-color: saddlebrown;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      h1 {
+        color: $mainTextColor;
+      }
+      p {
+        font-style: normal;
+        // background-color: red;
+        width: 60%;
+        text-align: left;
+        padding-bottom: 20px;
+        border-bottom: 2px solid $mainRedColor;
+      }
+    }
+  }
+
+  .phone {
+    width: 30%;
+    margin-right: 250px;
+    // background-color: purple;
+    position: sticky;
+    top: 5%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+  }
+
+  .screen1 {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+    transition: opacity 1.5s ease-out;
+  }
+
+  .screen2 {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    transition: opacity 1.5s ease-out;
+  }
+
+  .screen3 {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    transition: opacity 1.5s ease-out;
+  }
+
+  .screen4 {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    transition: opacity 1.5s ease-out;
+  }
+}
+
+.scrollable-mobile {
+  // background-color: pink;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 280px;
+  align-items: center;
+
+  @media only screen and (min-width: 1025px) {
+    display: none;
+  }
+
+  @media only screen and (max-width: 414px) {
+    margin-top: 120px;
+  }
+
+  .phone {
+    width: 30%;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+
+    @media only screen and (max-width: 414px) {
+      width: 80%;
+    }
+  }
+
+  .screen1 {
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+    transition: opacity 1.5s ease-out;
+  }
+
+  .text {
+    // background-color: saddlebrown;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-bottom: 80px;
+
+    h1 {
+      color: $mainTextColor;
+    }
+
+    p {
+      font-style: normal;
+      // background-color: red;
+      width: 50%;
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 2px solid $mainRedColor;
+      @media only screen and (max-width: 414px) {
+        width: 80%;
+        font-size: 16px;
+      }
+    }
+  }
+}
