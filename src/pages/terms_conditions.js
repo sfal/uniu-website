@@ -243,7 +243,7 @@ export const TermsConditions = () => {
           <h2>10. PRIVACY POLICY</h2>
           <p>
             For more information about the Privacy & Policy visit the following
-            link:
+            link:{" "}
             <a href="http://www.uniu.it/privacy_policy">
               www.uniu.it/privacy_policy
             </a>

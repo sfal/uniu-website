@@ -74,7 +74,7 @@ export const PrivacyPolicy = () => {
             </b>
             <br />
             <br />A copy of this agreement is provided at:{" "}
-            <a href="http://xwww.uniu.it/privacy_policy">
+            <a href="http://www.uniu.it/privacy_policy">
               www.uniu.it/privacy_policy
             </a>
             <br />

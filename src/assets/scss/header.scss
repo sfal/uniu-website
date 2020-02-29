@@ -32,6 +32,15 @@ body {
       align-items: center;
       width: 45%;
       justify-content: space-between;
+
+      @media only screen and (max-width: 1024px) {
+        width: 80%;
+      }
+
+      @media only screen and (max-width: 414px) {
+        width: 50%;
+        // background-color: yellowgreen;
+      }
     }
 
     a {
@@ -46,6 +55,10 @@ body {
 
       a:hover:not(.active) {
         border-bottom: $mainRedColor 2px solid;
+      }
+
+      @media only screen and (max-width: 414px) {
+        display: none;
       }
     }
 

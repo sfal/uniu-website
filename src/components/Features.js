@@ -10,7 +10,7 @@ export default class Features extends React.Component {
   render() {
     return (
       <div className="features">
-        <div className="box">
+        <div className="box-desktop">
           <div className="description">
             <div className="img-container">
               <img
@@ -19,7 +19,7 @@ export default class Features extends React.Component {
                 src={require("../assets/img/features1.png")}
               />
             </div>
-            <p>
+            <p className="text">
               <b>Semplice</b>.
               <br />
               Vai dritto al punto e aggiungi velocemente ciò che ti serve.
@@ -33,7 +33,7 @@ export default class Features extends React.Component {
                 src={require("../assets/img/features2.png")}
               />
             </div>
-            <p>
+            <p className="text">
               <b>Utile</b>. <br />
               Conserva tutte le informazioni importanti che potrebbero tornarti
               utili.
@@ -47,7 +47,7 @@ export default class Features extends React.Component {
                 src={require("../assets/img/features3.png")}
               />
             </div>
-            <p>
+            <p className="text">
               <b>Per te</b>. <br />
               Utilizza l’app come meglio credi e personalizzala* a tuo
               piacimento.
@@ -63,7 +63,7 @@ export default class Features extends React.Component {
                 src={require("../assets/img/features4.png")}
               />
             </div>
-            <p>
+            <p className="text">
               <b>Frequenti la Federico II di Napoli?</b> <br />
               Scarica i dati della tua carriera direttamente dal tuo account
               universitario.

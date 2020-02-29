@@ -84,8 +84,9 @@ export default class Discover extends React.Component {
   render() {
     return (
       <section className="section" id="discover">
+        {/* DESKTOP */}
         <div
-          className="scrollable"
+          className="scrollable-desktop"
           id="#scrollable"
           onScroll={this.scrollingContainer}
         >
@@ -176,6 +177,71 @@ export default class Discover extends React.Component {
               className="screen4"
               src={require("../assets/img/screen4.png")}
             />
+          </div>
+        </div>
+        {/* MOBILE */}
+        <div className="scrollable-mobile">
+          <div className="phone">
+            <img
+              alt="App screen"
+              className="screen1"
+              src={require("../assets/img/screen1.png")}
+            />
+          </div>
+          <div className="text" id="firstText">
+            {/* <h1>Ecco UniU</h1> */}
+            <br />
+            <p>
+              Un'app per gestire al meglio il tuo percorso universitario tenendo
+              traccia di tutto ciò che può esserti utile quotidianamente.
+            </p>
+          </div>
+          <div className="phone">
+            <img
+              alt="App screen"
+              className="screen1"
+              src={require("../assets/img/screen2.png")}
+            />
+          </div>
+          <div className="text" id="firstText">
+            {/* <h1>Ecco UniU</h1> */}
+            <br />
+            <p>
+              Puoi monitorare facilmente la tua carriera universitaria. Segna
+              gli esami svolti e quelli da fare, tenendo traccia dei CFU e dei
+              voti.
+            </p>
+          </div>
+          <div className="phone">
+            <img
+              alt="App screen"
+              className="screen1"
+              src={require("../assets/img/screen3.png")}
+            />
+          </div>
+          <div className="text" id="firstText">
+            {/* <h1>Ecco UniU</h1> */}
+            <br />
+            <p>
+              Puoi registrare l'orario delle lezioni e visualizzare il piano
+              della giornata o dell'intera settimana. L'app ti invierà una
+              notifica quando è arrivato il momento di cambiare aula.
+            </p>
+          </div>
+          <div className="phone">
+            <img
+              alt="App screen"
+              className="screen1"
+              src={require("../assets/img/screen4.png")}
+            />
+          </div>
+          <div className="text" id="firstText">
+            {/* <h1>Ecco UniU</h1> */}
+            <br />
+            <p>
+              Puoi prevedere la tua media in base al risultato dei prossimi
+              esami. Tieni sempre d'occhio la tua media e i CFU mancanti.
+            </p>
           </div>
         </div>
       </section>
