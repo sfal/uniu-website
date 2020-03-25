@@ -29,7 +29,11 @@ export default class Header extends React.Component {
             <li>
               <Link to="/privacy_policy">Privacy Policy</Link>
             </li>
-            <a href="\" target="_blank" className="appstore-badge">
+            <a
+              href="https://apps.apple.com/it/app/uniu-luniversit%C3%A0-smart/id1486762229"
+              target="_blank"
+              className="appstore-badge"
+            >
               <img
                 alt="Download button that leads to the App Store"
                 src={require("../assets/img/appstore-badge.svg")}
